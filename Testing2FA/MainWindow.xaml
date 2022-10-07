@@ -151,7 +151,8 @@
                 <Label Content="Would normally navigate to another page or something here"
                        Visibility="{Binding LoggedInVisibility}"/>
                 <Label Foreground="OrangeRed"
-                       Content="Incorrect 2FA code!"/>
+                       Content="Incorrect 2FA code!"
+                       Visibility="{Binding LoginFailedVisibility}"/>
             </StackPanel>
         </TabItem>
     </TabControl>
